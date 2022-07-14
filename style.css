@@ -1,0 +1,55 @@
+
+  .child{
+    display: grid;
+    grid-template-columns:75px 75px 75px 75px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    background-color:gainsboro;
+    border-radius: 5px;
+    padding: 35px;  
+}
+
+#equal{
+    grid-column: 3/5;
+  }
+
+  #result{
+    grid-column: 1/5;
+   
+}
+
+body{
+    display: grid;
+    place-content: center;
+    max-height: 100vh;
+    padding-top: 140px;
+    background: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg');
+    background-size: cover;
+}
+
+input{
+    background-color: #80808096;
+    color: hsl(0deg 3% 29%);
+    border:none;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: 600;
+}
+button{
+    border:none;
+    margin:8px;
+    font-size:20px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+    
+    
+}
+.equal-button{
+   
+    background-color: blue;
+    color: white;
+    border:none;
+
+}
+
+
+
